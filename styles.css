@@ -25,20 +25,26 @@ body {
     align-items: center;
     background-color: var(--White);
     width: 24rem;
+    border-radius: 1.5rem;
+    border: 1.5px none var(--Gray_950);
+    border-style: solid;
+    box-shadow: 0.5rem 0.5rem;
     
 }
 
 .card-container__illustration{
-    width: 20rem;
+    width: 21rem;
     border-radius: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 .card-container__status{
     background-color: var(--yellow);
     font-weight: 800;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 0.2rem;
     align-self: flex-start;
+    margin: 1.5rem 0 0 1.5rem;
 }
 
 .card-container-text{
@@ -47,22 +53,35 @@ body {
 
 .card-container-text__published-date{
     font-weight: 500;
+    margin-left: 1.5rem;
 }
 
 .card-container-text__title{
     font-weight: 800;
+    margin-left: 1.5rem;
+}
+
+.card-container-text__title:hover{
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 .card-container-text__description{
     color: var(--Gray_500);
     font-size: 16px;
     font-weight: 500;
+    margin-left: 1.5rem;
 }
 
 .card-container-autor{
     display: flex;
     flex-direction: row;
     align-self: flex-start;
+    margin-left: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
 }
 
 .card-container-autor__image{
@@ -70,7 +89,9 @@ body {
 }
 
 .card-container-autor__name{
+    font-size: 14px;
     font-weight: 800;
+    display: flex;
 }
 
 .attribution{
